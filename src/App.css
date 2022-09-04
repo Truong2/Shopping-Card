@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    body {
+        @apply font-tajawal;
+    }
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@layer components {
+    .active {
+        @apply font-bold opacity-100;
+    }
+    .btn {
+        @apply font-bold relative flex items-center justify-center transition-all;
+    }
+    .button {
+        @apply border flex relative items-center justify-center transition-all;
+    }
+    .button-small {
+        @apply px-6 py-5 text-2xl;
+    }
+    .button-large {
+        @apply px-8 py-6 text-3xl font-medium;
+    }
+    .basket {
+        @apply w-[1320px];
+    }
+    .product-detail {
+        @apply w-[1056px];
+    }
+    .color-item {
+        @apply w-[30px] h-[30px] rounded-[50%] mx-[10px] relative z-10 shrink-0 transition-transform hover:cursor-pointer hover:border hover:border-solid;
+    }
+    .color-item-selected {
+        @apply border-2 border-solid border-[#f1f1f1] scale-110 text-[1.4rem] after:content-['_✓'] after:absolute after:top-[50%] after:left-[50%] after:translate-x-[-50%] after:translate-y-[-50%] after:m-auto after:text-[#fff];
+    }
+}
+@layer utilities {
+    .scrollbar-medium::-webkit-scrollbar {
+        @apply w-[10px];
+    }
+    .scrollbar-thumb::-webkit-scrollbar-thumb {
+        @apply bg-[#1a1a1a] border border-solid border-[#f8f8f8];
+    }
+    .scrollbar-track::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

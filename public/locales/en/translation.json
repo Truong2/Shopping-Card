@@ -1,0 +1,27 @@
+{
+  "menu": {
+    "home":"Home",
+    "shop": "Shop",
+    "featured": "Featured Products",
+    "recommended": "Recommended Products"
+  },
+  "field":{
+    "subTotalAmount":"Subtotal Amount :",
+    "quantity": "Quantity",
+    "size": "Size",
+    "color": "Color"
+  },
+  "button": {
+    "close":"Close",
+    "clearBasket":"Clear Basket",
+    "checkout":"Check Out"
+  },
+  "message":{
+    "emptyBasket":"You Basket is Empty"
+  },
+  "others":{
+    "myBasket":"My Basket",
+    "addToBasket": "Add To Basket",
+    "removeFromBasket": " Remove From Basket"
+  }
+}

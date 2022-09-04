@@ -1,0 +1,27 @@
+.content{
+    position: relative;
+    margin-right: 16px;
+}
+.or::before{
+    position: absolute;
+    content: "";
+    top: 28px;
+    left: 6px;
+    height: 60px;
+    width: 1px;
+    background: #e1e1e1;
+}
+.or {
+    position: absolute;
+    left: 44px;
+    top: 148px;
+}
+.or::after{
+    position: absolute;
+    content: "";
+    top: -56px;
+    left: 6px;
+    height: 48px;
+    width: 1px;
+    background: #e1e1e1;
+}
